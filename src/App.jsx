@@ -6,6 +6,9 @@ function App() {
       <p>
         ClockHacks 2
       </p>
+      <button>
+        Sponsor us
+      </button>
     </div>
   )
 }

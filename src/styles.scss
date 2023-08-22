@@ -25,3 +25,14 @@ h1, h2, h3, h4, button:not(.no-styles) {
   font-family: 'IBM Plex Mono', monospace;
   color: theme('colors.text1')
 }
+
+button:not(.no-styles) {
+  background-color: theme('colors.accent1');
+  padding: 1rem;
+  border-radius: 2rem;
+  transition: opacity 0.3s ease;
+  
+  &:hover {
+    opacity: 0.8;
+  }
+}
