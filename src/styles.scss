@@ -23,7 +23,8 @@ p {
 
 h1, h2, h3, h4, button:not(.no-styles) {
   font-family: 'IBM Plex Mono', monospace;
-  color: theme('colors.text1')
+  color: theme('colors.text1');
+  font-weight: 800;
 }
 
 h1 {
