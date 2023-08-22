@@ -2,7 +2,10 @@ function App() {
 
   return (
     <div>
-      ClockHacks 2
+      <h1>ClockHacks 2</h1>
+      <p>
+        ClockHacks 2
+      </p>
     </div>
   )
 }
