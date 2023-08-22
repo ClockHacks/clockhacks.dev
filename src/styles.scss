@@ -26,6 +26,16 @@ h1, h2, h3, h4, button:not(.no-styles) {
   color: theme('colors.text1')
 }
 
+h1 {
+  font-size: 40px
+} h2 {
+  font-size: 32px;
+} h3 {
+  font-size: 24px;
+} h4 {
+  font-size: 20px;
+}
+
 button:not(.no-styles) {
   background-color: theme('colors.accent1');
   padding: 1rem;
@@ -35,4 +45,9 @@ button:not(.no-styles) {
   &:hover {
     opacity: 0.8;
   }
+}
+
+.typography {
+  max-width: 80rem;
+  margin: 0 auto;
 }

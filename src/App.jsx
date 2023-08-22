@@ -1,7 +1,7 @@
 function App() {
 
   return (
-    <div>
+    <div className='typography'>
       <h1>ClockHacks 2</h1>
       <p>
         ClockHacks 2

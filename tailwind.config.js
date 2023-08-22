@@ -15,6 +15,9 @@ export default {
         accent2: "#58a370"
       }
     },
+    transitionDuration: {
+      DEFAULT: "300ms"
+    }
   },
   plugins: [],
 }
