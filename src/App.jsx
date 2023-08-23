@@ -1,11 +1,14 @@
 import Navbar from './components/Navbar'
 
+import Landing from './sections/Landing'
+
 function App() {
 
   return (
-    <div className='h-screen mb-20'>
+    <main>
       <Navbar />
-    </div>
+      <Landing />
+    </main>
   )
 }
 
