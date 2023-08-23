@@ -1,14 +1,10 @@
+import Navbar from './components/Navbar'
+
 function App() {
 
   return (
-    <div className='typography'>
-      <h1>ClockHacks 2</h1>
-      <p>
-        ClockHacks 2
-      </p>
-      <button>
-        Sponsor us
-      </button>
+    <div className='h-screen mb-20'>
+      <Navbar />
     </div>
   )
 }
