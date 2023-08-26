@@ -7,9 +7,9 @@ const About = () => {
         moneyRaised: 0,
     });
 
-    const maxParticipants = 203,
-        maxProjects = 38,
-        maxMoneyRaised = 700;
+    const maxParticipants = 360,
+        maxProjects = 40,
+        maxMoneyRaised = 10000;
 
     const participantsStep = maxParticipants / 100,
         projectsStep = maxProjects / 100,
@@ -28,40 +28,44 @@ const About = () => {
     }, []);
 
     return (
-        <section className="p-5 md:p-10 flex flex-col justify-center items-center min-h-[50vh] w-screen typography">
-            <h1 className="text-3xl md:text-4xl font-bold">
-                By <span className="text-accent1">students</span>, for{" "}
-                <span className="text-accent1">students</span>
-            </h1>
-            <div className="mt-2">
-                <p className="mt-3">
-                    ClockHacks is a hackathon founded by high school students whose mission
-                    is to{" "}
-                    <span className="font-bold">make hackathons more accessible to students.</span>
-                </p>
-                <p className="mt-3">
-                    ClockHacks is themed around time. You will be able to work in teams of up to 4 persons to create whatever tech-related project than can have a positive impact on the world.
-                </p>
-            </div>
-            <br />
-            <div className="mt-5 flex flex-wrap items-center w-full md:space-y-0 space-y-5">
-                <div className="md:w-1/2 w-full p-3">
-                    <h2 className="text-3xl font-bold">
-                        <span className="text-accent1">Analytics</span>
-                    </h2>
-                    <div className="mt-3 text-xl">
-                        <p>
-                            <span className="font-bold">{stats.participants.toFixed(0)}</span> <span className="text-accent2">participants</span>
+        <section className="p-5 md:p-10 flex flex-col justify-center items-center min-h-[50vh] bg-bg2">
+            <div className='typography flex flex-col gap-[6rem]'>
+                <div>
+                    <h1 className="text-3xl md:text-4xl font-bold text-center">
+                        By <span className="text-accent1">students</span>, for{" "}
+                        <span className="text-accent1">students</span>
+                    </h1>
+                    <div className="mt-2">
+                        <p className="mt-3 text-center">
+                            ClockHacks is a hackathon founded by high school students whose mission
+                            is to{" "}
+                            <span className="font-bold">make hackathons more accessible to students.</span>
                         </p>
-                        <p>
-                            <span className="font-bold">{stats.projects.toFixed(0)}</span> <span className="text-accent2">projects submitted</span>
-                        </p>
-                        <p>
-                            <span className="font-bold">${stats.moneyRaised.toFixed(0)}+</span> <span className="text-accent2">raised</span>
+                        <p className="mt-3 text-center">
+                            ClockHacks is themed around time. You will be able to work in teams of up to 4 persons to create whatever tech-related project than can have a positive impact on the world.
                         </p>
                     </div>
                 </div>
-                <div className="md:w-1/2 w-full p-3">
+                <div className="mt-5 flex flex-wrap flex-col justify-center w-full md:space-y-0 space-y-5">
+                    <div className="w-full p-3 text-center">
+                        <h2 className="text-3xl font-bold">
+                            <span className="text-accent1">Last year's stats</span>
+                        </h2>
+                        <div className="mt-3 text-xl flex justify-around">
+                            <div className='bg-bg1 p-8 rounded-lg text-accent2'>
+                                <span className="font-bold">{stats.participants.toFixed(0)}+</span> <span className="text-accent2">registrations</span>
+                            </div>
+                            <div className='bg-bg1 p-8 rounded-lg text-accent2'>
+                                <span className="font-bold">{stats.projects.toFixed(0)}+</span> <span className="text-accent2"> projects submitted</span>
+                            </div>
+                            <div className='bg-bg1 p-8 rounded-lg text-accent2'>
+                                <span className="font-bold">${stats.moneyRaised.toFixed(0)}+</span> <span className="text-accent2">in prizes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="w-full p-3 text-center">
                     <h2 className="text-3xl font-bold">
                         <span className="text-accent1">Project Showcase</span>
                     </h2>
@@ -107,7 +111,6 @@ const About = () => {
                         </a>
                     </div>
                 </div>
-
             </div>
         </section>
     );
