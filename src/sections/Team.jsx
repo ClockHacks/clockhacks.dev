@@ -16,7 +16,7 @@ const Team = () => {
                                 <img
                                     src={member.imageSrc}
                                     alt={`${member.name}'s picture`}
-                                    className="w-20 h-20 rounded-full mx-auto mb-2"
+                                    className="w-40 h-40 rounded-full mx-auto mb-2"
                                 />
                             </a>
                             <div className="text-center">
