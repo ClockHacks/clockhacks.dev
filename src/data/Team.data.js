@@ -33,7 +33,7 @@ const teamData = [
         name: "Hamza Ammar",
         role: "Marketing Organizer",
         linkedin: "https://www.linkedin.com/in/hamza-ammar-341531240/",
-        imageSrc: null // missing picture: has #opentowork frame
+        imageSrc: "/headshots/hamza-ammar.jpg"
     },
     {
         name: "Shreyash Mishra",
