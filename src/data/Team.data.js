@@ -15,7 +15,7 @@ const teamData = [
         name: "Jay Ren",
         role: "Lead",
         linkedin: "https://www.linkedin.com/in/jay-yuan-ren-107892211/",
-        imageSrc: null // missing picture: has #opentowork frame
+        imageSrc: "/headshots/jay-ren.jpg" // missing picture: has #opentowork frame
     },
     {
         name: "Quinn Wang",
@@ -63,7 +63,7 @@ const teamData = [
         name: "Steven Qiao",
         role: "Operations Organizer",
         linkedin: "https://www.linkedin.com/in/steven-qiao/",
-        imageSrc: null // missing picture: doesn't have picture on linkedin
+        imageSrc: "/headshots/steven-qiao.jpeg" // missing picture: doesn't have picture on linkedin
     },
     {
         name: "Daisy Wang",
