@@ -54,5 +54,7 @@ button:not(.no-styles) {
 }
 
 a {
-  color: theme('colors.accent1');
+  &:hover {
+    opacity: 0.8;
+  }
 }
