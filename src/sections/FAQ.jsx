@@ -18,7 +18,7 @@ const FAQ = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-[80%] mx-auto">
                 {FAQData.map((item, columnIndex) => (
                     <div
-                        key={columnIndex} className="p-3 space-y-5"
+                        key={columnIndex} className='flex flex-col gap-6'
                     >
                         <h3 className="text-xl text-accent2">
                             {item.title}
@@ -27,7 +27,7 @@ const FAQ = () => {
                             item.questions.map((question, questionIndex) => (
                                 <div
                                     key={questionIndex}
-                                    className="rounded-md border border-accent2 p-4"
+                                    className="rounded-lg border border-accent2 p-4"
                                 >
                                     <div
                                         className="cursor-pointer flex justify-between items-center"
