@@ -6,10 +6,12 @@ import Team from './sections/Team'
 import Contact from './sections/Contact'
 import Footer from './components/Footer'
 
+import Landing from './sections/Landing'
+
 function App() {
 
   return (
-    <div className='h-screen mb-20'>
+    <main>
       <Navbar />
       <Landing />
       <About />
@@ -17,7 +19,7 @@ function App() {
       <Team />
       <Contact />
       <Footer />
-    </div>
+    </main>
   )
 }
 
