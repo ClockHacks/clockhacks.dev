@@ -3,7 +3,7 @@ import teamData from "../data/Team.data";
 
 const Team = () => {
     return (
-        <div className="min-h-screen py-10 text-white">
+        <div className="min-h-screen py-10 text-white mb-[7rem]">
             <div className="container mx-auto">
                 <h1 className="text-4xl font-bold mb-6 text-accent1 text-center">Team</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -16,7 +16,7 @@ const Team = () => {
                                 <img
                                     src={member.imageSrc}
                                     alt={`${member.name}'s picture`}
-                                    className="w-40 h-40 rounded-full mx-auto mb-2"
+                                    className="w-40 h-40 rounded-full mx-auto mb-2 object-cover"
                                 />
                             </a>
                             <div className="text-center">

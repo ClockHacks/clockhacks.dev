@@ -13,7 +13,7 @@ const FAQ = () => {
     };
 
     return (
-        <section className="text-white">
+        <section className="text-white my-[8rem]">
             <h2 className="text-3xl text-accent1 font-bold mb-8 text-center">Frequently Asked Questions</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-[80%] mx-auto">
                 {FAQData.map((item, columnIndex) => (

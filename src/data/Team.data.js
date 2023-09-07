@@ -39,7 +39,7 @@ const teamData = [
         name: "Shreyash Mishra",
         role: "Design Organizer",
         linkedin: "https://www.linkedin.com/in/shreyash-mishra-b95830229",
-        imageSrc: null // missing picture: doesn't have picture on linkedin
+        imageSrc: "/headshots/shreyash-mishra.jpg" // missing picture: doesn't have picture on linkedin
     },
     {
         name: "Jim Wang",
