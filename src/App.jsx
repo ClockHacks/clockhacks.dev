@@ -6,8 +6,6 @@ import Team from './sections/Team'
 import Contact from './sections/Contact'
 import Footer from './components/Footer'
 
-import Landing from './sections/Landing'
-
 function App() {
 
   return (
