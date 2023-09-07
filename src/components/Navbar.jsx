@@ -38,7 +38,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`py-8 sticky top-0 z-50 ${(top) ? "" : "!border-b-gray-500"} border-b-[1px] border-b-bg1 transition-colors`}>
+    <nav className={`py-8 sticky top-0 z-50 bg-bg1 ${(top) ? "" : "!border-b-gray-500"} border-b-[1px] border-b-bg1 transition-colors`}>
       <div className="typography flex justify-between px-8">
         <h4 className='text-accent1 font-bold cursor-pointer' onClick={() => {window.scrollTo(0,0)}}>ClockHacks 2</h4>
 
@@ -56,7 +56,7 @@ const Navbar = () => {
           <div className='flex flex-col text-center gap-8 items-center'>
             <h3 className='text-2xl text-accent1'>Navigation</h3>
             {links.map((link) => (
-              <a href={link.href} className="text-text1 hover:opacity-80 transition-opacity">{link.name}</a>
+              <a href={link.href} className="!text-text1 hover:opacity-80 transition-opacity">{link.name}</a>
             ))}
           </div>
         </div>
