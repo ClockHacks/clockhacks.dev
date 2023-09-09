@@ -21,7 +21,7 @@ const teamData = [
         name: "Quinn Wang",
         role: "Business Dev",
         linkedin: null,
-        imageSrc: null // missing picture: doesn't have linkedin
+        imageSrc: "/headshots/quinn-wang.jpg" // missing picture: doesn't have linkedin
     },
     {
         name: "Zitang Ren",
@@ -31,13 +31,13 @@ const teamData = [
     },
     {
         name: "Hamza Ammar",
-        role: "Marketing Organizer",
+        role: "Marketing",
         linkedin: "https://www.linkedin.com/in/hamza-ammar-341531240/",
         imageSrc: "/headshots/hamza-ammar.jpg"
     },
     {
         name: "Shreyash Mishra",
-        role: "Design Organizer",
+        role: "Design",
         linkedin: "https://www.linkedin.com/in/shreyash-mishra-b95830229",
         imageSrc: "/headshots/shreyash-mishra.jpg" // missing picture: doesn't have picture on linkedin
     },
@@ -55,21 +55,21 @@ const teamData = [
     },
     {
         name: "Krish Ganatra",
-        role: "Event Operations Organizer",
+        role: "Operations",
         linkedin: "https://linkedin.com/in/krish-ganatra/",
         imageSrc: "/headshots/krish-ganatra.jpg"
     },
     {
         name: "Steven Qiao",
-        role: "Operations Organizer",
+        role: "Operations",
         linkedin: "https://www.linkedin.com/in/steven-qiao/",
         imageSrc: "/headshots/steven-qiao.jpeg" // missing picture: doesn't have picture on linkedin
     },
     {
         name: "Daisy Wang",
-        role: "Operations Organizer",
+        role: "Operations",
         linkedin: "https://www.linkedin.com/in/daisy-wang-a82316257/",
-        imageSrc: null // missing picture: doesn't have picture on linkedin
+        imageSrc: "/headshots/daisy-wang.jpg" // missing picture: doesn't have picture on linkedin
     }
 ];
 

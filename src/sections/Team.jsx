@@ -10,7 +10,7 @@ const Team = () => {
                     {teamData.map((member, index) => (
                         <div
                             key={index}
-                            className="bg-bg2 md:rounded-md shadow-md p-2"
+                            className="bg-bg2 md:rounded-md shadow-md py-8"
                         >
                             <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
                                 <img
@@ -24,7 +24,7 @@ const Team = () => {
                                     href={member.linkedin}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-accent2 font-semibold hover:underline"
+                                    className={`text-accent2 font-semibold ${member.linkedin ? "hover:underline" : ""}`}
                                 >
                                     {member.name}
                                 </a>
