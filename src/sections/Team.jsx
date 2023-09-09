@@ -3,7 +3,7 @@ import teamData from "../data/Team.data";
 
 const Team = () => {
     return (
-        <div className="min-h-screen py-10 text-white mb-[7rem]">
+        <section className="min-h-screen text-white mb-[7rem]" id='team'>
             <div className="container mx-auto">
                 <h1 className="text-4xl font-bold mb-6 text-accent1 text-center">Team</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -34,7 +34,7 @@ const Team = () => {
                     ))}
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

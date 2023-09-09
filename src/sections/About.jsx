@@ -28,7 +28,7 @@ const About = () => {
     }, []);
 
     return (
-        <section className="p-5 md:p-10 flex flex-col justify-center items-center min-h-[50vh] bg-bg2">
+        <section className="flex flex-col justify-center items-center min-h-[50vh] bg-bg2" id='about'>
             <div className='typography flex flex-col gap-[6rem]'>
                 <div>
                     <h1 className="text-3xl md:text-4xl font-bold text-center pt-8">

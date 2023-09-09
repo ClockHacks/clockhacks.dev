@@ -8,10 +8,12 @@ const links = [
   }, {
     name: 'FAQ',
     href: '#faq'
-  }, {
-    name: 'Sponsors',
-    href: '#sponsors'
-  }, {
+  }, 
+  // {
+  //   name: 'Sponsors',
+  //   href: '#sponsors'
+  // }, 
+  {
     name: 'Our Team',
     href: '#team'
   }, {
