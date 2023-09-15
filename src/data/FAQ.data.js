@@ -1,6 +1,6 @@
 const faqData = [
   {
-    title: "Event Information",
+    title: "Before the event",
     questions: [
       {
         question: "What is a Hackathon?",
@@ -26,16 +26,29 @@ const faqData = [
     ]
   },
   {
-    title: "Column 2",
+    title: "During and after the event",
     questions: [
       {
-        question: "Question 3?",
-        answer: "Answer 3.",
+        question: "What if I don't know how to code?",
+        answer: "It's okay! Hackathons aren't just about coding. There is also an aspect of business, design, and presentation. You can also attend workshops and listen to guest speakers talk about the world of tech.",
       },
       {
-        question: "Question 4?",
-        answer: "Answer 4 with <a href='#'>link</a>.",
+        question: "What if I don't have a team?",
+        answer: "You can either join a team or work on your own. We will have a team formation session at the beginning of the hackathon.",
       },
+      {
+        question: "What project should I make?",
+        answer: "You can make anything you want! We encourage you to make something that you are passionate about. You can also make something that solves a problem you see in the world.",
+      },
+      {
+        question: "How does judging work?",
+        answer: 'Judging will be done by a panel of judges. They will be looking at your project on <a href="https://devpost.com">Devpost</a>, presentation, and demo.',
+
+      },
+      {
+        question: "How will prizes be shipped?",
+        answer: "Most of the prizes are gift cards or other digital awards. Some prizes will need to be shipped, and you will provide your preferred postal code if you need to be shipped a prize. Unfortunately, we can't ship prizes outside of North America.",
+      }
     ]
   },
 ];
