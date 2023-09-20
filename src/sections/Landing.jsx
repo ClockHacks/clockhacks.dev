@@ -40,7 +40,7 @@ const Landing = () => {
   }, [])
 
   return (
-    <section className='flex flex-col justify-center h-[calc(100vh-96px)] typography'>
+    <section className='flex flex-col justify-center h-[calc(100vh-96px)] p-8 typography'>
       <h1 className='text-9xl cursor-pointer' onClick={clicked}>{header}</h1>
       <h2 className='font-normal mb-4'>November 3-5, 2023 | Time. <span className='text-accent1'>Reinvented.</span></h2>
       <div className='mb-[7rem] flex items-center gap-2'>
