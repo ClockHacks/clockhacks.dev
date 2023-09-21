@@ -3,14 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
 body {
   margin: 0;
   background-color: theme('colors.bg1');
@@ -19,6 +11,7 @@ body {
 
 p {
   color: theme('colors.text2');
+  font-size: 1rem;
 }
 
 h1, h2, h3, h4, button:not(.no-styles) {
@@ -53,11 +46,13 @@ button:not(.no-styles) {
 }
 
 .typography {
-  max-width: 80rem;
+  max-width: 70rem;
   margin: 0 auto;
+  padding: 0 2rem;
 }
 
 a {
+  font-size: 1rem;
   &:hover {
     opacity: 0.8;
   }

@@ -2,8 +2,8 @@ import Socials from "./Socials"
 
 const Footer = () => {
   return (
-    <div className='bg-bg2 p-8 text-text2'>
-      <div className="typography flex justify-between items-center">
+    <div className='bg-bg2 p-4 text-text2'>
+      <div className="typography !p-0 flex justify-between flex-col lg:flex-row items-center">
         <a href='https://github.com/ClockHacks/clockhacks.dev/blob/main/LICENSE' className='text-accent1'>
           Copyright © ClockHacks 2023
         </a>
