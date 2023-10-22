@@ -20,9 +20,6 @@ const FAQ = () => {
                     <div
                         key={columnIndex} className='flex flex-col gap-6'
                     >
-                        <h3 className="text-xl text-accent2">
-                            {item.title}
-                        </h3>
                         {
                             item.questions.map((question, questionIndex) => (
                                 <div
