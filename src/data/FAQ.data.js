@@ -29,7 +29,7 @@ const faqData = [
     title: "Column 2",
     questions: [
       {
-        question: "You will be able to find a team in the ClockHacks discord before the event starts, or choose to work by yourself.",
+        question: "How can I find a team for ClockHacks?",
         answer: "You will be able to find a team in the ClockHacks discord before the event starts, or choose to work by yourself.",
       },
       {
