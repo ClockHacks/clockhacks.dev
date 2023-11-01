@@ -42,7 +42,7 @@ const Landing = () => {
   return (
     <section className='flex flex-col justify-center h-[calc(100vh-96px)] p-8 typography'>
       <h1 className='text-4xl lg:text-9xl cursor-pointer text-center lg:text-left' onClick={clicked}>{header}</h1>
-      <h2 className='text-lg lg:text-3xl font-normal mb-4 text-center lg:text-left'>November 3-5, 2023 | Time. <span className='text-accent1'>Reinvented.</span></h2>
+      <h2 className='text-lg lg:text-3xl font-normal mb-4 text-center lg:text-left'>November <del>3-5</del> 24-26, 2023 | Time. <span className='text-accent1'>Reinvented.</span></h2>
       <div className="flex flex-col md:flex-row items-center w-full">
         <a className="bg-accent1 text-center font-bold hadow-lg my-2 md:mr-3 p-3 text-white rounded-lg w-full" target="_BLANK" href="https://docs.google.com/forms/d/e/1FAIpQLScJjZKZyVWQyC4ehvoWkJ0nd8Ul75DQ0Wjn0vW23d13a4WX_A/viewform">
           Registration Form

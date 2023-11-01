@@ -42,7 +42,7 @@ const About = () => {
                             <span className="font-bold">make hackathons more accessible to students.</span>
                         </p>
                         <p className="mt-3 text-center">
-                            ClockHacks is themed around time. You will be able to work in teams of up to 4 persons to create whatever tech-related project than can have a positive impact on the world.
+                            ClockHacks is themed around time. You will be able to work in teams of up to 4 persons to create whatever tech-related project that can have a positive impact on the world.
                         </p>
                     </div>
                 </div>
